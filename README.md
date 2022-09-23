@@ -1,0 +1,1 @@
+Mini Project to learn how to make a website from scratch with HTML and CSS!
