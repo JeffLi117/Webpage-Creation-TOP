@@ -49,7 +49,7 @@ html, body {
     justify-content: center;
     align-content: center;
     padding: 1em 1em;
-    margin: 2em 7em;
+    margin: 3em 20em;
     background-color: #3882F6;
     color: white;
     border-radius: 7px;
@@ -146,3 +146,13 @@ span {
       display: flex;
 
   }
+
+.footer {
+    height: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+  }
+  
