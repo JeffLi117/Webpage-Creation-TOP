@@ -15,7 +15,8 @@ html, body {
       flex: auto;
       justify-content: space-between;
       background-color: #1F2937;
-      padding: 2em 10em;
+      padding: 2em 20em;
+      gap: 25px;
   }
 
   a:link, a:visited, a:hover, a:active {
@@ -31,9 +32,86 @@ html, body {
       flex: auto;
       align-items: center;
       justify-content: space-between;
-      gap: 45px;
+  }
+
+  .section3 {
+    display: flex;
+    flex: auto;
+    background-color: white;
+    flex-wrap: wrap;
+    gap: 3em;
+    justify-content: center;
+    padding-bottom: 3em;
+  }
+
+  .call {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 1em 1em;
+    margin: 2em 7em;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 7px;
+    font-size: 20px;
+    gap: 155px;
+  }
+
+  .call2 {
+    font-size: 26px; 
+    font-weight: bold;
+  }
+
+  .signup2 {
+    border-radius: 7px;
+    color: white;
+    background-color: #3882F6;
+    border-color: white;
+    font-size: 15px;
+    padding: 5px 15px;
+    margin: 15px 0px;
+    border-style: solid;
+  }
+
+
+  .sect3head {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    margin: 0 auto;
+    text-align: center;
+    justify-self: center;
+    margin: 1em 0px;
+  }
+
+  .first, .second, .third, .fourth {
+    font-size: 18px;
+    color: gray;
+    width: 200px;
+  }
+
+  .section3 img {
+    border: 5px solid #3882F6;
+    border-radius: 25px;
   }
   
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    gap: 1em;
+    padding: 3em 7em;
+}
+
+span {
+    font-size: 25px;
+    margin-left: auto;
+}
+
   .signup {
       border-radius: 7px;
       color: white;
@@ -42,6 +120,7 @@ html, body {
       font-size: 15px;
       padding: 5px 15px;
       margin: 15px 0px;
+      border-style: solid;
   }
   
   .left-of-image {
