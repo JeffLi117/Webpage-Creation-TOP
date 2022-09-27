@@ -16,7 +16,7 @@ html, body {
       flex: auto;
       justify-content: space-between;
       background-color: #1F2937;
-      padding: 2em 20em;
+      padding: 1em 20em 5em 20em;
       gap: 25px;
   }
 
