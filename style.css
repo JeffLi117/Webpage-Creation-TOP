@@ -1,61 +1,69 @@
 html, body {
-  margin: 0;
-}
-
-ul {
-    list-style: none;
-}
-
-.head {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: #1F2937;
-}
-
-a:link, a:visited, a:hover, a:active {
-    font-size: 18px;
-    text-decoration: none;
-    margin: 0 15px;
-    color: #E5E7EB;
+    margin: 0;
+  }
+  
+  ul {
+      list-style: none;
+      display: flex;
+      gap: 15px;
+  }
+  
+  .quarters {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      flex: auto;
+      justify-content: space-between;
+      background-color: #1F2937;
+      padding: 2em 10em;
   }
 
-.section2 {
-    background-color: #1F2937;
-    color: #E5E7EB;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 45px;
-    padding: 2em;
-}
+  a:link, a:visited, a:hover, a:active {
+      font-size: 18px;
+      text-decoration: none;
+      color: #E5E7EB;
+    }
+  
+  .section2 {
+      background-color: #1F2937;
+      color: #E5E7EB;
+      display: flex;
+      flex: auto;
+      align-items: center;
+      justify-content: space-between;
+      gap: 45px;
+  }
+  
+  .signup {
+      border-radius: 7px;
+      color: white;
+      background-color: #3882F6;
+      border-color: #3882F6;
+      font-size: 15px;
+      padding: 5px 15px;
+      margin: 15px 0px;
+  }
+  
+  .left-of-image {
+      width: 50%;
+  }
+  
+  .img {
+      width: 50%;
+  }
+  .awesome {
+      font-size: 48px;
+      color: #F9FAF8;
+      font-weight: bold;
+  }
+  
+  .header {
+      font-weight: 700;
+      font-size: 24px;
+      color: white;
+  }
+  
+  .headerlist {
+      display: flex;
 
-.signup {
-    border-radius: 7px;
-    color: white;
-    background-color: #3882F6;
-    border-color: #3882F6;
-    font-size: 15px;
-    padding: 5px 15px;
-    margin: 15px 0px;
-}
-
-.left-of-image {
-    width: 450px;
-}
-
-.awesome {
-    font-size: 48px;
-    color: #F9FAF8;
-    font-weight: bold;
-}
-
-.header {
-    font-weight: 700;
-    font-size: 24px;
-    color: white;
-}
-
-.headerlist {
-    display: flex;
-}
+  }
